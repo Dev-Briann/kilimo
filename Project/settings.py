@@ -14,7 +14,7 @@ SECRET_KEY = 'waohzcfb(=y@xh3)2$*me6jvp7au&@v+)@h&h$##zu46p^-le='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kilimoqa.herokuapp.com','127.0.0.1']
 
 
 # Application definition
