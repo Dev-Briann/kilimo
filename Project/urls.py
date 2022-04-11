@@ -15,8 +15,5 @@ urlpatterns = [
 ]
 
 if settings.DEBUG:
-	urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static_cdn")	
+    urlpatterns +=  static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns +=  static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
